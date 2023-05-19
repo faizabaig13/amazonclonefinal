@@ -1,0 +1,55 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Apple",
+        "image": "/images/apple.jpeg",
+        "price": 1.99
+      },
+      {
+        "id": 2,
+        "name": "Banana",
+        "image": "/images/banana.jpeg",
+        "price": 0.99
+      },
+      {
+        "id": 3,
+        "name": "Carrot",
+        "image": "/images/carrot.jpeg",
+        "price": 0.75
+      },
+      {
+        "id": 4,
+        "name": "Orange",
+        "image": "/images/orange.jpeg",
+        "price": 1.49
+      },  {
+        "id": 5,
+        "name": "egg",
+        "image": "/images/egg box.jpeg",
+        "price": 2.49
+      },
+      {
+        "id": 6,
+        "name": "Milk",
+        "image": "/images/milk pack.jpeg",
+        "price": 1.41
+      },
+  
+      {
+        "id": 7,
+        "name": "Rice",
+        "image": "/images/rice.jpeg",
+        "price": 5.98
+      },
+      {
+        "id": 8,
+        "name": "Sugar",
+        "image": "/images/sugar.jpeg",
+        "price": 2.90
+      }
+  
+  
+    ]
+  }
+  

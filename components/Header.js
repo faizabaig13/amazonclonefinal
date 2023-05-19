@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "next/image";
+import Link from 'next/link'
 import {
     MenuIcon,
     SearchIcon,
@@ -48,19 +49,17 @@ function Header() {
                    </div>
                </div>
             </div>
-            <div className="flex items-center bg-amazon_blue-light space-x-3 p-2 pl-6 text-white text-sm" >
-             <p className='link flex items-center' ><MenuIcon className="h-6 mr-1" />
-             All</p>
-             <p className="link">Prime Video</p>
-             <p className="link">Amazon Business</p>
-             <p className="link">Today's Deal</p>
-             <p className="link hidden lg:inline-flex">Electronics</p>
-             <p className="link hidden lg:inline-flex">Food & Grocery</p>
-             <p className="link hidden lg:inline-flex">Prime</p>
-             <p className="link hidden lg:inline-flex">Buy Again</p>
-             <p className="link hidden lg:inline-flex">Shopper Toolkit</p>
-             <p className="link hidden lg:inline-flex">Health & Personal Care</p>
-            </div>
+            <div className=" flex items-center space-x-3 bg-amazon_blue-light p-2 pl-6 text-sm text-white outline-none">
+      <Link href={'/primevideo'} className='link  lg:inline-fle'>Prime Video</Link>
+      {/* <Link href={'/amazonbusiness'} className='link  lg:inline-fle'>Amazon Business</Link> */}
+<Link href={'/deals'} className='link'>    Today&#39;s Deals</Link>  
+<Link href={'/electronics'} className='link  lg:inline-fle'> Electronics</Link>  
+<Link href={'/foods'} className='link  lg:inline-fle'>Food & Grocery</Link>
+        {/* <p className="link hidden lg:inline-flex">Prime</p>
+        <p className="link hidden lg:inline-flex">Buy Again</p>
+        <p className="link hidden lg:inline-flex">Shoppers Toolkit</p> */}
+        {/* <p className="link hidden lg:inline-flex">Health & Personal Care</p> */}
+      </div>
         </header>
     )
 }
